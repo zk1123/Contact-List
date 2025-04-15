@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>My Contact List</h2>
+    <input type="text" id="name" placeholder="Name" />
+    <input type="text" id="phone" placeholder="Phone Number" />
+    <button onclick="addContact()" class="ad">Add Contact</button>
+
+    <input type="text" id="search" placeholder="Search Name" />
+    <button onclick="searchContact()" class="sr">Search</button>
+    <button onclick="viewContacts()" class="vw">View All Contacts</button>
+    <button onclick="deleteAllContacts()" class="dl">Delete All Contacts</button>
+    <div class="output" id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
